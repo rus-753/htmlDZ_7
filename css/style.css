@@ -272,4 +272,17 @@ body {
 
 }
 
-.span-text {}
+.text {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 18px;
+	line-height: 28px;
+
+
+}
+
+.text::first-line {
+	color: #ff0000;
+
+}
+
+.test__2 {}
