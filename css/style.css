@@ -221,10 +221,7 @@ body {
 	background: #80b7b3;
 	display: inline-block;
 	border-radius: 22px;
-	font-family: Arial,
-		"Helvetica Neue",
-		Helvetica,
-		sans-serif;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 	font-style: 14px;
 	text-transform: uppercase;
 	letter-spacing: 2.8px;
@@ -244,9 +241,10 @@ body {
 }
 
 .p {
+	display: inline-block;
 	font-size: 20px;
 	margin: 95px 0 20px 376px;
-	background: yellow;
+
 }
 
 .textinput {
@@ -255,7 +253,6 @@ body {
 	border: 1px solid #b0b0b0;
 	font-size: 25px;
 	padding: 15px;
-
 }
 
 .textinput:hover {
@@ -263,14 +260,12 @@ body {
 }
 
 .textinput-1 {
-	/* display: inline-block; */
 	width: 294px;
 	height: 52px;
 	font-size: 25px;
 	padding: 15px;
 	margin: 0 0 0 78px;
 	border: 1px solid #b0b0b0;
-
 }
 
 .textinput-1:focus {
@@ -283,7 +278,6 @@ body {
 	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 	font-size: 18px;
 	line-height: 28px;
-	background: yellow;
 
 
 }
