@@ -247,6 +247,8 @@ body {
 
 }
 
+.text-input {}
+
 .textinput {
 	width: 294px;
 	height: 52px;
@@ -274,17 +276,31 @@ body {
 
 }
 
+
 .text {
 	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 	font-size: 18px;
 	line-height: 28px;
+	color: #000000;
+	margin: 118px 75px 0 5px;
 
 
 }
 
-.text::first-line {
+.text:first-line {
 	color: #ff0000;
 
 }
 
-.test__2 {}
+.test_1 {
+	font-size: 18px;
+	line-height: 28px;
+	color: #000000;
+	margin: 43px 75px 0 1px;
+
+}
+
+.test_1::first-letter {
+	font-size: 25px;
+	color: #ff0000;
+}
