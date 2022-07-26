@@ -120,15 +120,18 @@ body {
 .text-info {
 	font-size: 20px;
 	margin: 0 0 137px 0;
+
 }
 
 .text-info li {
 	font-size: 20px;
 	margin: 0 0 17px 0;
-	background: url(/img/icons/galka.png)no-repeat;
+	background: url(/img/icons/galka.png) no-repeat;
 	padding: 0 0 0 35px;
 
 }
+
+
 
 .text-info li:nth-child(1) {
 	text-decoration: line-through;
@@ -148,12 +151,11 @@ body {
 	margin: 0 0 81px 0;
 }
 
-.text-info li:nth-child(6) {
-	background: url();
-}
+.text-info li:nth-child(6) {}
 
 .text-info li:hover:nth-child(6) {
 	color: red;
+	background: url(/img/icons/galka_red.png) no-repeat;
 	text-decoration: underline;
 
 
@@ -184,6 +186,7 @@ body {
 
 
 }
+
 
 .button-link1 span {
 	padding: 0 30px 0 0;
@@ -238,11 +241,16 @@ body {
 .button-link3 span {
 	background: url(/img/icons/strelka.png)right no-repeat;
 	padding: 0 30px 0 0;
-
 }
 
 .button-link3:active {
 	background-color: #818181;
+}
+
+.button a::after {
+	content: '';
+	background: url(/img/icons/strelka.png) no-repeat;
+	background-color: yellow;
 }
 
 .p {
